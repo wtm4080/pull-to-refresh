@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
     s.source_files      = ['Sources/**/*.{swift}']
     s.resource_bundles  = { 'ESPullToRefresh' => 'Sources/Animator/*.png' }
     s.requires_arc      = true
+
+    s.swift_version = '5.0'
 end
